@@ -281,5 +281,5 @@ OutputRendererRegistry.registerOutputTransform(StderrRendererContrib);
 
 // --- utils ---
 export function getStringValue(item: IOutputItemDto): string {
-	return item.data.buffer.toString();
+	return item.data.toString();
 }
